@@ -1,0 +1,3539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PTCG Christmas Theme Decks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.19.0/cdn/themes/light.css"/>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.19.0/cdn/shoelace.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="snowflake.js"></script>
+</head>
+<body>
+<div class="snow-container"></div>
+<h1 id="page-title">PTCG Christmas Decks</h1>
+
+<div id="flex-container">
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Growth Clash</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-HS1_Growth_Clash_Deck.jpg"
+                    alt="Growth Clash box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog0">
+                    Your victories will be in full bloom when you battle using the Growth Clash theme deck! Furret helps you find the Pokémon you need, Sandslash batters the Defending Pokémon with Poison Sting, and Meganium uses Giant Bloom to both attack your opponent's Pokémon and heal itself at the same time. Can you wield the furious powers of these Pokémon to grow stronger and defeat your opponents?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen0">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Growth_Clash_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog0');
+                        const openButton = document.querySelector('#dialogopen0');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Ember Spark</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-HS1_Ember_Spark_Deck.jpg"
+                    alt="Ember Spark box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog1">
+                    The greatest fires begin with a single spark...and the Ember Spark theme deck will fan your flames of victory! Use Noctowl to add extra cards to your hand so you can build up the Energy to let Arcanine and Typhlosion use their impressive Fire Mane and Fire Spin attacks for 90 and 120 damage! By drawing and discarding at lightning speed, you'll burn through your opponent's defenses in no time!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen1">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Ember_Spark_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog1');
+                        const openButton = document.querySelector('#dialogopen1');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Mind Flood</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-HS1_Mind_Flood_Deck.jpg"
+                    alt="Mind Flood box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog2">
+                    Let the waves wash over your opponents when you play the Mind Flood theme deck! While Hypno spends turn after turn putting your opponent's Pokémon to sleep, Exeggutor's Big Eggsplosion attack washes away your opponent's hopes of victory with the potential for tons of damage. To top it off, Feraligatr roars in with its Spinning Tail attack to flood your opponent's side of the battle with damage!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen2">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Mind_Flood_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog2');
+                        const openButton = document.querySelector('#dialogopen2');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Chaos Control</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-HS2_Chaos_Control_Deck.jpg"
+                    alt="Chaos Control box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog3">
+                    The chaotic powers that have been unleashed can only be controlled by an amazing Pokémon Trainer. Is it you? In the Chaos Control theme deck, you'll need to balance devastating attacks like Tyranitar's Tail Crush and Lucario's Bulk Up against more strategic approaches like Mismagius's Psychic Pulse. With all of your opponent's Pokémon vulnerable to your battle plans, can you control your forces until victory is yours?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen3">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Chaos_Control_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog3');
+                        const openButton = document.querySelector('#dialogopen3');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Steel Sentinel</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Metal-attack.png" alt="Metal">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-HS2_Steel_Sentinel_Deck.jpg"
+                    alt="Steel Sentinel box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog4">
+                    The best offense is a strong defense when you play the Steel Sentinel theme deck! Steelix's Guard Press attack reduces the damage your opponent can do... Cherrim's Sunny Heal Poké-Power heals your Active Pokémon turn after turn...Life Herb can do wonders to help your Pokémon last longer...and even Turtwig's Leech Seed attack heals Turtwig whenever it does damage to your opponent's Pokémon! Can you stand strong against all attackers?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen4">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Steel_Sentinel_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog4');
+                        const openButton = document.querySelector('#dialogopen4');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Daybreak</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-HS3_Daybreak_Deck.jpg"
+                    alt="Daybreak box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog5">
+                    You'll use every trick under the sun to defeat your opponent when you play the Daybreak theme deck! The versatile Sludge Pokémon Muk both inflicts Special Conditions on your opponent's Pokémon and then adds on damage to those already affected. And when the Sun Pokémon Espeon begins to move damage counters from your Pokémon across the battlefield to your opponent's Pokémon, it will dawn on your opponent just how versatile your Daybreak deck really is!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen5">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Daybreak_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog5');
+                        const openButton = document.querySelector('#dialogopen5');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Nightfall</span>
+                
+                    <img class="type-icon" src="assets/20px-Metal-attack.png" alt="Metal">
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-HS3_Nightfall_Deck.jpg"
+                    alt="Nightfall box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog6">
+                    Who's afraid of the dark? Your opponent will be when you play the Nightfall theme deck. Powerful Pokémon with devastating attacks prowl the shadows: Metagross can do as much as 200 damage in one attack, Honchkrow takes advantage of your defeated Darkness Pokémon to do even more damage, and the Moonlight Pokémon Umbreon can do fearsome damage while protecting itself with its Moonlight Fang attack. When night falls, so will your opponent's Pokémon!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen6">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Nightfall_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog6');
+                        const openButton = document.querySelector('#dialogopen6');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Verdant Frost</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-HS4_Verdant_Frost_Deck.jpg"
+                    alt="Verdant Frost box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog7">
+                    Send shivers down your opponent's spine and spread the damage around with Mamoswine's chilling Snowstorm attack! Then, let your foes know they've been given the cold shoulder, and cause panic to take root as Kricketune sows Confusion before delivering its mighty Fury Cutter attack! And, if it looks like you've been cut down to size, support comes from the Black Belt Trainer card, which causes hefty bonus damage! Can the Verdant Frost theme deck make the grass greener on your side?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen7">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Verdant_Frost_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog7');
+                        const openButton = document.querySelector('#dialogopen7');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Royal Guard</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-HS4_Royal_Guard_Deck.jpg"
+                    alt="Royal Guard box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog8">
+                    Let Nidoking lead from the front and unleash its devastating Venomous Horn attack to punish and Poison your foe's Pokémon! Then, bring the opposition to its knees as Machamp steps up to deliver your crowning achievement with its majestic Hundred Furious Punches attack... And, if revolution is in the air, the Twins Supporter card will help crush any challenge to your sovereignty by rewarding you with extra cards! Will your rule be absolute with the Royal Guard theme deck?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen8">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Royal_Guard_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog8');
+                        const openButton = document.querySelector('#dialogopen8');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Recon</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-CL1_Recon_Deck.jpg"
+                    alt="Recon box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog9">
+                    With the Recon theme deck, you'll help your opponent discover what every good lookout knows—there's no smoke without fire. And where there's fire, there's Magmortar! Survey the destruction as its Mantle Bazooka attack does 100 damage to anything in its path. Meganium ensures opposing Pokémon are caught sleeping on their watch, and relentlessly test your foe's defenses with Tangrowth's slow-burning Grind attack.... Then, watch as its crushing crescendo reminds your opposition just what the lay of the land really is!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen9">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Recon_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog9');
+                        const openButton = document.querySelector('#dialogopen9');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Retort</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-CL1_Retort_Deck.jpg"
+                    alt="Retort box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog10">
+                    Set your opponents reeling with ferocious counterattacks when you play the Retort theme deck! While Groudon builds its powerful Volcano Stomp attack from your Bench, Hitmontop's rapid response is its Triple Kick attack that can do 60 damage for only 1 Energy! And if your opponent thinks that sending your Pokémon to the Lost Zone is a good strategy, Lucario has a stunning answer to that with its Dimension Sphere attack. The Retort theme deck could be the answer to your victory!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen10">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Retort_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog10');
+                        const openButton = document.querySelector('#dialogopen10');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Green Tornado</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW1_Green_Tornado_Deck.jpg"
+                    alt="Green Tornado box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog11">
+                    Play the Green Tornado theme deck to blow away the opposition while sheltering your own Pokémon with Serperior's Leaf Storm attack! Then, bring Sawsbuck into the action and overwhelm your opponent's Pokémon with its "the greener, the meaner" Nature Power attack! And if your opponent can weather the storm with tough Pokémon, let them ride it out in peaceful slumbers with Musharna's Hypnotic Ray attack! With the Green Tornado theme deck, will you whirl your way to victory?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen11">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Green_Tornado_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog11');
+                        const openButton = document.querySelector('#dialogopen11');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Red Frenzy</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW1_Red_Frenzy_Deck.jpg"
+                    alt="Red Frenzy box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog12">
+                    Unleash a firestorm in the Red Frenzy theme deck with the mighty Mega Fire Pig Pokémon Emboar! Feeling burned out after its tremendous Flare Blitz attack? Well, fan the flames with the Energy Retrieval Trainer card and reignite with Emboar's Heat Crash attack! Then, add fuel to the fire and insult to injury with Stoutland's Giga Impact attack! Let your opponents feel the heat when you play the Red Frenzy theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen12">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Red_Frenzy_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog12');
+                        const openButton = document.querySelector('#dialogopen12');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Blue Assault</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW1_Blue_Assault_Deck.jpg"
+                    alt="Blue Assault box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog13">
+                    Your opponents will soon find themselves in troubled waters with the Blue Assault theme deck, especially when you unleash Galvantula! Its Electroweb attack is sure to leave them in sticky situations, and its Leech Life attack will keep your own Pokémon going strong! Use Basculin's Crunch attack to leave your opponent's Pokémon high and dry while Professor Juniper brings you calm waters. Will you be able to batter the opposition with the Blue Assault theme deck?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen13">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Blue_Assault_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog13');
+                        const openButton = document.querySelector('#dialogopen13');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Power Play</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW2_Power_Play_Deck.jpg"
+                    alt="Power Play box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog14">
+                    Heavy hitters deliver pure power: it's up to you to control it! Gigalith rumbles into action with the Rock Bullet attack, and the Intimidation Pokémon Krookodile can make other Pokémon pull their punches every time it uses its sneaky Black Eyes Ability. Your opponents will be on the ropes as even little Minccino gets in on the action, packing a mighty punch for its mini size. With Pokémon chosen for their fighting fury, can your foes handle your power plays?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen14">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Power_Play_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog14');
+                        const openButton = document.querySelector('#dialogopen14');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Toxic Tricks</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW2_Toxic_Tricks_Deck.jpg"
+                    alt="Toxic Tricks box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog15">
+                    Turn the tables on your opponents with the Toxic Tricks theme deck! Gothitelle's Mental Shock attack will confuse and confound your opponents, and Scolipede's poisonous double-dose Toxic Claws attack will leave your opponents feeling more than a little tricked! And, when Gothita gets in the mix with its sleep-inducing Hypnotic Gaze, your opponents will be Poisoned, Asleep, Confused, and beaten in no time!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen15">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Toxic_Tricks_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog15');
+                        const openButton = document.querySelector('#dialogopen15');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Fast Daze</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW3_Fast_Daze_Deck.jpg"
+                    alt="Fast Daze box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog16">
+                    Dazzle your opponents with the Fast Daze theme deck! With its low-cost attacks and no Retreat Cost, Accelgor can get in and out of battle in the blink of an eye! Volcarona's Fiery Dance powers up your best attacks with blazing speed, and Lilligant's healing touch can get your quickest fighters back into the fray! You could be on the fast track to success!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen16">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Fast_Daze_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog16');
+                        const openButton = document.querySelector('#dialogopen16');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Furious Knights</span>
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+                    <img class="type-icon" src="assets/20px-Metal-attack.png" alt="Metal">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW3_Furious_Knights_Deck.jpg"
+                    alt="Furious Knights box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog17">
+                    Send in the cavalry with the Furious Knights theme deck! Quick hitters like Emolga give you time to marshal your forces, and the slow and sturdy Escavalier can dish out the damage while protecting itself. Plus, Druddigon's Rough Skin Ability will make your opponent think twice about attacking! In a furious battle, victory could be yours!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen17">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Furious_Knights_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog17');
+                        const openButton = document.querySelector('#dialogopen17');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Explosive Edge</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW4_Explosive_Edge_Deck.jpg"
+                    alt="Explosive Edge box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog18">
+                    Attack after devastating attack, you'll drive your opponents to the edge of defeat when you play the Explosive Edge theme deck! With Reshiram's fiery Blue Flare attack and Beartic's powerful Ambush attack, you'll blast your opponent's Pokémon turn after turn. And when Chandelure and Arcanine add even more cutting-edge attacks to your battles, you can expect every victory to be exceptional!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen18">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Explosive_Edge_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog18');
+                        const openButton = document.querySelector('#dialogopen18');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Voltage Vortex</span>
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW4_Voltage_Vortex_Deck.jpg"
+                    alt="Voltage Vortex box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog19">
+                    Get ready to watch your opponents spin out of control! The Voltage Vortex theme deck will shock them with every attack—from Zekrom's Bolt Strike to Luxray's Flash Impact...and beyond! Add the possibility of 160 damage when Raichu charges up its Slam attack, and your opponents will be waiting for the next jolt—your exciting victory!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen19">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Voltage_Vortex_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog19');
+                        const openButton = document.querySelector('#dialogopen19');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Raiders</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW5_Raiders_Deck.jpg"
+                    alt="Raiders box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog20">
+                    The Coffin Pokémon Cofagrigus rises to do your bidding when you play the Raiders theme deck! Send Sableye to raid your discard pile for Item cards that, when you discard them from your hand, let Cofagrigus bury your opponent's Pokémon with damage. Then send Krookodile in with its Dark Clamp and Bombast attacks to pin down the Defending Pokémon before enshrouding it in darkness in search of a Knock Out. Prove that you are skilled enough to ensure that your raiders become victors!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen20">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Raiders_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog20');
+                        const openButton = document.querySelector('#dialogopen20');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Shadows</span>
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW5_Shadows_Deck.jpg"
+                    alt="Shadows box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog21">
+                    When Zoroark emerges from the shadows, there won't be a shadow of a doubt about who will win! Even if Zoroark takes a hit or two, its Dark Rush attack does more damage for each damage counter on it. And while Empoleon uses its Diving Draw Ability to give you greater access to your deck, your other Pokémon can use their fast and effective attacks to do damage, cause Confusion, and then put out your opponent's lights. Make your opponents afraid of their own shadows when you play the Shadows theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen21">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Shadows_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog21');
+                        const openButton = document.querySelector('#dialogopen21');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">DragonSnarl</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+                    <img class="type-icon" src="assets/20px-Dragon-attack.png" alt="Dragon">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW6_DragonSnarl_Deck.jpg"
+                    alt="DragonSnarl box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog22">
+                    When dragons snarl, opponents fall! With the DragonSnarl theme deck, Pokémon like Skuntank, Golurk, and Gothitelle lead the charge and pave the way for your powerhouse Dragon-type Pokémon, Hydreigon, to roar into battle! As the Brutal Pokémon brings its aggressive combination of healing and devastating attacks to combat, your opponents will hear their defeat because they hear your dragons snarl!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen22">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/DragonSnarl_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog22');
+                        const openButton = document.querySelector('#dialogopen22');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">DragonSpeed</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Dragon-attack.png" alt="Dragon">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW6_DragonSpeed_Deck.jpg"
+                    alt="DragonSpeed box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog23">
+                    Foes must make way for the mighty Mach Pokémon Garchomp or quickly learn a furious lesson! But time and tide wait for no Pokémon, and your opponents will have much to fear before that terrible arrival: Walrein will bring watery doom, speedily delivering wave after wave of Aurora Beam and Ice Entomb attacks...and there will be no respite when Marowak gets in on the action with its heavy-hitting Vortex Chop! With nowhere to run and no time to catch breath, can anyone match the dragons' speed?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen23">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Dragon_Speed_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog23');
+                        const openButton = document.querySelector('#dialogopen23');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Ice Shock</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+                    <img class="type-icon" src="assets/20px-Dragon-attack.png" alt="Dragon">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW7_Ice_Shock_Deck.jpg"
+                    alt="Ice Shock box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog24">
+                    Feel the chill as Black Kyurem takes center stage in the electrifying Ice Shock theme deck! Foes have no time to stop and stare as Black Kyurem unleashes its electrifying Flash Freeze attack, and with Jellicent's Stickiness Ability, they won't even be able to run and hide! The jolts continue as Lopunny takes time out from healing to drive the Defending Pokémon back to the Bench, helping Electivire blow your opponents' fuses as it delivers punishing attacks to Benched Pokémon. Can those who stand in your way avoid the blackout?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen24">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Ice_Shock_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog24');
+                        const openButton = document.querySelector('#dialogopen24');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Cold Fire</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Dragon-attack.png" alt="Dragon">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW7_Cold_Fire_Deck.jpg"
+                    alt="Cold Fire box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog25">
+                    Watch foes feel the heat as White Kyurem sets your game ablaze in the Cold Fire theme deck! Send opponents on a slippery downward spiral with Samurott's Destructive Whirlpool attack, and run rings around them as they try to fend off Darmanitan's ferocious Damage Counterpunch attack. And, with Delibird, Delcatty, and Dunsparce delivering you deck-searching delights to drive the flames ever higher, your opponents will be going out...but not in a blaze of glory!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen25">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Cold_Fire_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog25');
+                        const openButton = document.querySelector('#dialogopen25');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Plasma Shadow</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW8_Plasma_Shadow_Deck.jpg"
+                    alt="Plasma Shadow box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog26">
+                    Shadows loom and sparks fly as the Renegade Pokémon Giratina lays a Hex on any Pokémon that stands against it! A devastating chain reaction becomes a terrifying reality once Amoonguss gets in on the action with its damage-boosting Miracle Powder attack, and a shocking aftermath is inescapable once Weezing unleashes its Aftermath Ability. Finally, as Watchog shows its teeth and snaps around the heels of fleeing Pokémon with its Second Bite attack, what once was murky will become blindingly clear: you'll cast a shadow over your foes with the Plasma Shadow theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen26">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Plasma_Shadow_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog26');
+                        const openButton = document.querySelector('#dialogopen26');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Plasma Claw</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Dragon-attack.png" alt="Dragon">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW8_Plasma_Claw_Deck.jpg"
+                    alt="Plasma Claw box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog27">
+                    Lightning strikes and opponents feel the burn as the Cave Pokémon Druddigon explodes into action with the ferocious Dragon Claw attack! Infernape's Malevolent Fire attack fans the flames of your foes' defeat, and there's no skin thick enough to cope with Sharpedo's Rough Skin Ability. Once Jellicent drifts into range and its Spiteful Spirit Ability takes hold, even opponents with the cloudiest of minds will know the truth: they can't claw their way back into the game when you play the Plasma Claw theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen27">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Plasma_Claw_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog27');
+                        const openButton = document.querySelector('#dialogopen27');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Frost Ray</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW9_Frost_Ray_Deck.jpg"
+                    alt="Frost Ray box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog28">
+                    Freeze your foes with fear when you play the Frost Ray theme deck! Use Glaceon's Icy Wind attack to send opposing Pokémon into a cold, deep sleep, and Vanilluxe's powerful ChillMAX attack to let them know they're in for a rude awakening! You'll command the battlefield with superior speed using Glaceon's Freeze Zone Ability, and help keep the Energy flowing with Electrode's Magnetic Draw. Then, as you call Team Plasma Pokémon and Trainer cards from the discard pile with Raticate's Transfer Junk attack, your opponents will know anyone unwary enough to challenge you will be put on ice!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen28">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Frost_Ray_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog28');
+                        const openButton = document.querySelector('#dialogopen28');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Psy Crusher</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW9_Psy_Crusher_Deck.jpg"
+                    alt="Psy Crusher box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog29">
+                    Mash your opponents' minds with mental might when you play the Psy Crusher theme deck! Use Leafeon's Energy Crush attack to turn the power of opposing Pokémon on themselves, and make sure no Pokémon can escape when you unleash Cofagrigus's Elongating Arms attack! Espeon keeps the reinforcements coming with Psy Alert, and Muk deals damage and heals itself. Then, when Beedrill Confuses and Poisons using Swift Sting, it won't take a mind-reader to know that the shattered remnants of the forces facing you have been crushed!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen29">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Psy_Crusher_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog29');
+                        const openButton = document.querySelector('#dialogopen29');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Mind Wipe</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW10_Mind_Wipe_Deck.jpg"
+                    alt="Mind Wipe box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog30">
+                    The powerful Paleozoic Pokémon Genesect explodes into action in the Mind Wipe theme deck! As its Jet Impact attack deals devastating destruction, Reuniclus reduces retaliation with Barrier Attack, and Kangaskhan pulls Pokémon into play with Call for Family. As this bewildering onslaught comes to a close, your rivals will be mired in the memories of their defeats!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen30">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Mind_Wipe_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog30');
+                        const openButton = document.querySelector('#dialogopen30');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Solar Strike</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-BW10_Solar_Strike_Deck.jpg"
+                    alt="Solar Strike box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog31">
+                    The valiant Sun Pokémon Volcarona commands the battlefield in the Solar Strike theme deck! As it torments your opponents with the Leech Life attack and calls reinforcements with Solar Transporter, Glalie and Ursaring move into position for their own fiendish offensive, and Blastoise's Deluge Ability ensures your attacks have the Energy they need. It won't be long before your foes are blinded by your brilliance!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen31">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Solar_Strike_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog31');
+                        const openButton = document.querySelector('#dialogopen31');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Chespin Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+                    <img class="type-icon" src="assets/20px-Fairy-attack.png" alt="Fairy">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-Chespin_Kalos_Starter_Set_Deck.jpg"
+                    alt="Chespin Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog32">
+                    Start your adventure in the Kalos region with the Grass-type Pokémon Chespin and this 60-card ready-to-play deck! With spikes, toughness, and resilient Grass-type moves, this new deck is perfect for the small but fierce competitor who never gives up! With quiet strength, it grows and grows to outperform and outlast the competition! Plant the seeds of your future victory—start with the Chespin deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen32">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Chespin_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog32');
+                        const openButton = document.querySelector('#dialogopen32');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Fennekin Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-Fennekin_Kalos_Starter_Set_Deck.jpg"
+                    alt="Fennekin Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog33">
+                    Start your adventure in the Kalos region with the Fire-type Pokémon Fennekin and this 60-card ready-to-play deck! This new deck unlocks a world of exciting Pokémon battles and gives you the head start you need to battle and win in the Pokémon Trading Card Game! As a Fire-type deck, the Fennekin deck is full of powerful moves—grab it and blaze your path to victory!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen33">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Fennekin_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog33');
+                        const openButton = document.querySelector('#dialogopen33');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Froakie Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Metal-attack.png" alt="Metal">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-Froakie_Kalos_Starter_Set_Deck.jpg"
+                    alt="Froakie Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog34">
+                    Start your adventure in the Kalos region with the Water-type Pokémon Froakie and this 60-card ready-to-play deck! This new deck leaps over the competition with Froakie’s unexpected powers, including all the shifting speed and thrilling moves that Water-type Pokémon are famous for! Move like a roaring river and carve your channel to victory— grab the Froakie deck and get ready to play!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen34">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Froakie_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog34');
+                        const openButton = document.querySelector('#dialogopen34');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Resilient Life</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Fairy-attack.png" alt="Fairy">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY1_Resilient_Life_Deck.jpg"
+                    alt="Resilient Life box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog35">
+                    Resist, refuel, and retaliate with the Resilient Life theme deck! Xerneas can find Fairy Energy to recharge your Benched Pokémon, and Aromatisse moves that Energy around to wherever you need it most. Once your Pokémon have Fairy Energy attached, things get even better: Slurpuff's Sweet Veil Ability protects them from Special Conditions, and the Fairy Garden Stadium card lets them retreat for free! Flexible defenses are the key to your victory!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen35">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Resilient_Life_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog35');
+                        const openButton = document.querySelector('#dialogopen35');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Destruction Rush</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY1_Destruction_Rush_Deck.jpg"
+                    alt="Destruction Rush box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog36">
+                    Leave your opponents in the dust with the Destruction Rush theme deck! Yveltal retrieves lost Energy for a quick recovery with Oblivion Wing and wields the devastating Darkness Blade to great effect. Krookodile can Knock Back a battle-ready Pokémon to the Bench and keep powerful Supporter cards out of play. With Malamar's Mental Panic to keep your opponent's attacks at bay, retaliation won't be easy—and the rush to destruction will be complete!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen36">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Destruction_Rush_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog36');
+                        const openButton = document.querySelector('#dialogopen36');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Brilliant Thunder</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY2_Brilliant_Thunder_Deck.jpg"
+                    alt="Brilliant Thunder box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog37">
+                    Lightning strikes and fires rage when you bring the Brilliant Thunder theme deck to battle! Harness the might of Pidgeot's Strong Gust to deliver booming blows to your foes. Bring your opponents to their knees as you buffet them with the thunderous strike force of Lopunny and Heliolisk! Fuel the ferocious flames with Fiery Torch and, as the sky begins to fall on your adversaries, deliver the final word with Snorlax's Sleepy Press! As the smoke clears, will you leave your opponents thunderstruck?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen37">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Brilliant_Thunder_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog37');
+                        const openButton = document.querySelector('#dialogopen37');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Mystic Typhoon</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY2_Mystic_Typhoon_Deck.jpg"
+                    alt="Mystic Typhoon box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog38">
+                    It never rains but it pours for your opponent when you bring the Mystic Typhoon theme deck to battle! Muddle your opponents' minds with Meowstic's Ear Influence attack, and turn a tide of damage upon them with Walrein's Big Tusk! Keep the Energy flowing with Milotic's sacrificial Energy Grace Ability, and dig up more cards to create the perfect storm with Furret's Buried Treasure Hunt before unleashing waves of fury boosted by the Muscle Band Trainer card. Can anyone weather your storms?
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen38">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Mystic_Typhoon_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog38');
+                        const openButton = document.querySelector('#dialogopen38');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Enchanted Echo</span>
+                
+                    <img class="type-icon" src="assets/20px-Fairy-attack.png" alt="Fairy">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY3_Enchanted_Echo_Deck.jpg"
+                    alt="Enchanted Echo box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog39">
+                    Disrupt your opponent's strategy and protect your team with the Enchanted Echo theme deck! With Sylveon to keep Energy away from opposing Pokémon and Tornadus to shove them back to the Bench, your path will be clear to dish out the hits. Add in the damage prevention of Clefable and Accelgor, plus the healing powers of Victreebel and Potion, and your victory could echo through the ages!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen39">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Enchanted_Echo_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog39');
+                        const openButton = document.querySelector('#dialogopen39');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Dark Hammer</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY3_Dark_Hammer_Deck.jpg"
+                    alt="Dark Hammer box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog40">
+                    Bring the hammer down with the Dark Hammer theme deck! Get your hardest hitters into battle-ready mode quickly with handy Trainer cards like Evosoda and Korrina. Mienshao pulls a tricky hit-and-run as Pangoro hammers away at your opponent's deck. Landorus keeps your team powered up with Energy, and Professor Sycamore refills your hand. With Machamp's Fighting Fury Ability to boost your attacks, your opponent could be in for a dark fate!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen40">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Dark_Hammer_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog40');
+                        const openButton = document.querySelector('#dialogopen40');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Burning Winds</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY4_Burning_Winds_Deck.jpg"
+                    alt="Burning Winds box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog41">
+                    Carry a fiery storm under your wings with the Burning Winds theme deck! Let Talonflame light up the sky with Jet Shoot, while Venomoth stirs up a Dizzying Wind to keep a foe guessing—and with Yanmega's Windfall to refill your hand, you can fly the unfriendly skies with ease. Add in Pyroar's Flare Command and Loudred's Energy Press to turn your opponent's resources in your favor, and total air superiority could be yours!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen41">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Burning_Winds_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog41');
+                        const openButton = document.querySelector('#dialogopen41');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Bolt Twister</span>
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY4_Bolt_Twister_Deck.jpg"
+                    alt="Bolt Twister box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog42">
+                    Lightning and water make a dangerous combination—for your opponents! Galvantula can spin a bright Electroweb, while Heliolisk powers up its Parabolic Spark. At the same time, Kingler can drop the big Crabhammer, and Feraligatr's Hyper Whirlpool is ready to pull the foe under. To maximize your odds, Frillish and Jellicent confuse and befuddle opposing Pokémon sometimes the path to victory takes a few twists and turns, and sometimes you can bolt to the top!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen42">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Bolt_Twister_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog42');
+                        const openButton = document.querySelector('#dialogopen42');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Ocean's Core</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY5_Ocean_Core_Deck.jpg"
+                    alt="Ocean's Core box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog43">
+                    Opposites working together create a furious maelstrom! The Ocean's Core theme deck brings together the raging Ocean Cyclone of Kyogre and the blazing inferno of Combusken. Thanks to its α Growth Ancient Trait, Whiscash can power up fast to unleash a fearsome Earthquake, while Milotic uses Aqua Swirl to put your opponent's big attackers on the Bench! So take a shot with this medley of Fire and Water—because when the ocean burns, nothing can stop you!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen43">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Ocean%27s_Core_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog43');
+                        const openButton = document.querySelector('#dialogopen43');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Earth's Pulse</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY5_Earth_Pulse_Deck.jpg"
+                    alt="Earth's Pulse box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog44">
+                    Shake the pillars of the Pokémon world with the Earth's Pulse theme deck! The Continent Pokémon Groudon leads the charge, breaking ground on a massive scale, while little Linoone rushes your opponent's Bench with a Dash Attack! Medicham's Ω Barrage Ancient Trait brings an extra hit every turn, while unexpected allies like Eelektrik and Electrike turn up the voltage with Buzz Flip and Charge! Smash 'em with Fighting, zap 'em with Lightning, and leave your opponent shocked, socked, and pulverized!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen44">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Earth%27s_Pulse_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog44');
+                        const openButton = document.querySelector('#dialogopen44');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Aurora Blast</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY6_Aurora_Blast_Deck.jpg"
+                    alt="Aurora Blast box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog45">
+                    Overwhelm your opponent with the shimmering majesty of the Aurora Blast theme deck! Let the Freeze Pokémon Articuno lead the way with a Freezing Wind, while Victini paralyzes the foe with a Psy Bolt or two! Then let Salamence swoop in with Power Howl and Steam Blast to ramp up your offense. Combine these with Swellow's Δ Plus Ancient Trait for extra Prize cards, and you can knock out your opponent's northern lights!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen45">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Aurora_Blast_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog45');
+                        const openButton = document.querySelector('#dialogopen45');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Storm Rider</span>
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY6_Storm_Rider_Deck.jpg"
+                    alt="Storm Rider box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog46">
+                    The Storm Rider theme deck goes BOOM in more ways than one! Strike from above with bolts of lightning while keeping your opponent off balance with some twisty Grass-type tricks! Zapdos can bring the Raging Thunder while Dragonite makes a Heavy Impact—and picks up extra Prize cards with its Δ Plus Ancient Trait. To really crank up the noise, call on Shedinja for a Hopeless Scream that can make your opponent howl in despair as you sound your victory cry!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen46">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Storm_Rider_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog46');
+                        const openButton = document.querySelector('#dialogopen46');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Stone Heart</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY7_Stone_Heart_Deck.jpg"
+                    alt="Stone Heart box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog47">
+                    This deck's got heart—the kind of prizefighter's heart that never quits! With the Stone Heart theme deck, your Pokémon can poison, paralyze, and trick opposing Pokémon in many ways—and the mighty Regirock leads the way, with its Unyielding Rock attack perfect for taking down Pokémon-EX! Add in the Legendary Pokémon Virizion with the power to hit harder if you're behind, and the Stone Heart deck is full of fighting spirit. This is one contender that's never down for the count!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen47">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Stone_Heart_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog47');
+                        const openButton = document.querySelector('#dialogopen47');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Iron Tide</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Metal-attack.png" alt="Metal">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY7_Iron_Tide_Deck.jpg"
+                    alt="Iron Tide box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog48">
+                    Crush your opponents with iron or sink them in the depths—either way you wield the chilling might of the Iron Tide theme deck! With Metagross leading the way, this deck shines like steel from the start. Add in some big attacks like Forbidden Iron Hammer from Registeel and Hydro Splash from Vaporeon, and your opponent is awash in trouble, bubbles, and a steely doom! Then evolve Magikarp to Gyarados to truly thrash opposing Pokémon, and watch the tide of the battle turn in your favor!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen48">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Iron_Tide_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog48');
+                        const openButton = document.querySelector('#dialogopen48');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Burning Spark</span>
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY8_Burning_Spark_Deck.jpg"
+                    alt="Burning Spark box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog49">
+                    Run circles around your opponent's Pokémon with lightning speed, or burn them with a well-placed jet of flame—let loose with the full heat of the Burning Spark theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen49">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Burning_Spark_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog49');
+                        const openButton = document.querySelector('#dialogopen49');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Night Striker</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY8_Night_Striker_Deck.jpg"
+                    alt="Night Striker box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog50">
+                    Let rip with a scream from the night, and weave your path to victory in the darkness. Seize the power of Noivern and Gengar in the Night Striker theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen50">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Night_Striker_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog50');
+                        const openButton = document.querySelector('#dialogopen50');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Wave Slasher</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY9_Wave_Slasher_Deck.jpg"
+                    alt="Wave Slasher box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog51">
+                    Cut through waves and slash foes in the battle arena—flow like water and bend like grass! Greninja and Slowking come to your call in the Wave Slasher theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen51">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Wave_Slasher_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog51');
+                        const openButton = document.querySelector('#dialogopen51');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Electric Eye</span>
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY9_Electric_Eye_Deck.jpg"
+                    alt="Electric Eye box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog52">
+                    Command the gleaming eyes of Luxray and strike fast with the crackling fists of Electivire! Stare down your opponent with the hypnotic mastery and total focus of the Electric Eye theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen52">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Electric_Eye_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog52');
+                        const openButton = document.querySelector('#dialogopen52');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Battle Ruler</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY10_Battle_Ruler_Deck.jpg"
+                    alt="Battle Ruler box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog53">
+                    Rule the battle with the Legendary Pokémon of order and control: Zygarde! With Lucario's fists of justice and Serperior's crushing coils, you'll bring order to chaos and seize the moment with the Battle Ruler theme deck. On to victory!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen53">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Battle_Ruler_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog53');
+                        const openButton = document.querySelector('#dialogopen53');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Sky Guardian</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Fairy-attack.png" alt="Fairy">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY10_Sky_Guardian_Deck.jpg"
+                    alt="Sky Guardian box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog54">
+                    Unleash a storm of battle with the Legendary Pokémon of the seas: Lugia! With the fiery wings of Moltres and the mystic flame of Delphox, you'll burn through opposition in a flash with the Sky Guardian theme deck. Light it up!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen54">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Sky_Guardian_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog54');
+                        const openButton = document.querySelector('#dialogopen54');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Gears of Fire</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Metal-attack.png" alt="Metal">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY11_Gears_of_Fire_Deck.jpg"
+                    alt="Gears of Fire box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog55">
+                    Spin up a great engine of battle with the Mythical Pokémon Volcanion! Combine the steely determination of Klinklang with the leaping speed of Monferno, and seize the power of steam. All aboard the victory train!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen55">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Gears_of_Fire_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog55');
+                        const openButton = document.querySelector('#dialogopen55');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Ring of Lightning</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY11_Ring_of_Lightning_Deck.jpg"
+                    alt="Ring of Lightning box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog56">
+                    Bring forth lightning and psychic shocks with the Mythical Pokémon Hoopa! Galvantula's electric webs and the surging power of Ampharos keep the current flowing and give your opponent quite a shock. Call down the thunder!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen56">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Ring_of_Lightning_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog56');
+                        const openButton = document.querySelector('#dialogopen56');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Pikachu Power</span>
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY12_Pikachu_Power_Deck.jpg"
+                    alt="Pikachu Power box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog57">
+                    Charge up your game with the little thunderbolt that never gives up: Pikachu! Add the electrifying power of Raichu and the supercharged voltage of Electabuzz, and you'll have a potent team against any foe!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen57">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Pikachu_Power_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog57');
+                        const openButton = document.querySelector('#dialogopen57');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Mewtwo Mayhem</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-XY12_Mewtwo_Mayhem_Deck.jpg"
+                    alt="Mewtwo Mayhem box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog58">
+                    Mewtwo is ready to dish out the chaos! With Hitmonchan and Onix delivering quick hits, this deck clobbers both body and mind. You'll be right in the thick of the action!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen58">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Mewtwo_Mayhem_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog58');
+                        const openButton = document.querySelector('#dialogopen58');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Forest Shadow</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM1_Forest_Shadow_Deck.jpg"
+                    alt="Forest Shadow box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog59">
+                    Moving through the trees with ultimate stealth: Decidueye! This hard-striking deck paints a target on your foe—and hits the bull's-eye. Take aim with the Forest Shadow theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen59">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Forest_Shadow_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog59');
+                        const openButton = document.querySelector('#dialogopen59');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Roaring Heat</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM1_Roaring_Heat_Deck.jpg"
+                    alt="Roaring Heat box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog60">
+                    Explode with the fiery power of Incineroar! Add fuel to the fire with a fast-burning, fast-punching team built of pure power and aggression. Throw it all into the fight with the Roaring Heat theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen60">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Roaring_Heat_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog60');
+                        const openButton = document.querySelector('#dialogopen60');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Bright Tide</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM1_Bright_Tide_Deck.jpg"
+                    alt="Bright Tide box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog61">
+                    Light up the waters and overwhelm your foe with Primarina! Combine water and lightning, and send your Pokémon team surging through howling storms with the Bright Tide theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen61">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Bright_Tide_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog61');
+                        const openButton = document.querySelector('#dialogopen61');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Steel Sun</span>
+                
+                    <img class="type-icon" src="assets/20px-Metal-attack.png" alt="Metal">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM2_Steel_Sun_Deck.jpg"
+                    alt="Steel Sun box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog62">
+                    A Pokémon of fiery power: Solgaleo! This well-tempered deck puts both Metal and Psychic power in your hands—and tests your opponent's mettle. Stay sharp with the Steel Sun theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen62">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Steel_Sun_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog62');
+                        const openButton = document.querySelector('#dialogopen62');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Hidden Moon</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM2_Hidden_Moon_Deck.jpg"
+                    alt="Hidden Moon box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog63">
+                    Hurtling across the sky on purple wings, Lunala leads a fiery crew of Pokémon! Keep your Pokémon evolving and bide your time until you reveal the power of the Hidden Moon theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen63">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Hidden_Moon_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog63');
+                        const openButton = document.querySelector('#dialogopen63');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Rock Steady</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM3_Rock_Steady_Deck.jpg"
+                    alt="Rock Steady box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog64">
+                    Steady nerves and a sharp punch: Lycanroc is ready to stand and fight! This hardworking deck puts both Fighting- and Psychic-type Pokémon at your fingertips—for strength of body and mind. Keep total focus with the Rock Steady theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen64">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Rock_Steady_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog64');
+                        const openButton = document.querySelector('#dialogopen64');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Luminous Frost</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM3_Luminous_Frost_Deck.jpg"
+                    alt="Luminous Frost box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog65">
+                    Alolan Ninetales is keeping it frosty—and its friends are super-hot! Opposites attract when you fuse Fire and Water types, offering two paths to victory. With passionate fire and cool moves, the Luminous Frost theme deck is all about a winning attitude!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen65">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Luminous_Frost_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog65');
+                        const openButton = document.querySelector('#dialogopen65');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Destruction Fang</span>
+                
+                    <img class="type-icon" src="assets/20px-Darkness-attack.png" alt="Darkness">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM4_Destruction_Fang_Deck.jpg"
+                    alt="Destruction Fang box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog66">
+                    Armed with fangs, claws, and poison, Hydreigon and friends are ready to battle! This dangerous deck calls on Darkness- and Psychic-type Pokémon with howling fury and keen instincts. Make a furious attack work for you with the Destruction Fang theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen66">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Destruction_Fang_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog66');
+                        const openButton = document.querySelector('#dialogopen66');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Clanging Thunder</span>
+                
+                    <img class="type-icon" src="assets/20px-Dragon-attack.png" alt="Dragon">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM4_Clanging_Thunder_Deck.jpg"
+                    alt="Clanging Thunder box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog67">
+                    Kommo-o makes a mighty noise in battle! With a thunderous crew of Fighting and Lightning types, you can tear it up with huge hits and powerful Pokémon. The Clanging Thunder theme deck is going extra-big at full volume!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen67">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Clanging_Thunder_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog67');
+                        const openButton = document.querySelector('#dialogopen67');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Mach Strike</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM5_Mach_Strike_Deck.jpg"
+                    alt="Mach Strike box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog68">
+                    A Dragon-type Pokémon knows that how you begin a battle determines how you end it—so call on Garchomp and Lucario, and go for the big attack with powerful hits at top speed! The Mach Strike theme deck pulls no punches!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen68">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Mach_Strike_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog68');
+                        const openButton = document.querySelector('#dialogopen68');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Imperial Command</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM5_Imperial_Command_Deck.jpg"
+                    alt="Imperial Command box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog69">
+                    The royal Empoleon is ready to lead Abomasnow and a team of Water types into battle! Together, they can overwhelm and freeze out foes with perfect timing. Unlock the power of ice, wind, and wave with the Imperial Command theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen69">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Imperial_Command_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog69');
+                        const openButton = document.querySelector('#dialogopen69');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Twilight Rogue</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM6_Twilight_Rogue_Deck.jpg"
+                    alt="Twilight Rogue box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog70">
+                    Outnumbered? No problem! Lycanroc does more damage when your opponent's Bench is full, so use Dusknoir to force your opponent to play more Basic Pokémon. Salazzle and Malamar pull more cards and more Energy—for more ways to win with the Twilight Rogue theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen70">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Twilight_Rogue_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog70');
+                        const openButton = document.querySelector('#dialogopen70');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Tropical Takedown</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM6_Tropical_Takedown_Deck.jpg"
+                    alt="Tropical Takedown box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog71">
+                    Alolan Exeggutor leads the way with its Tropical Shake attack, and lots of Alolan Pokémon come along to win as a team! This deck helps you make the most of your big attacks—go shake it up with the Tropical Takedown theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen71">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Tropical_Takedown_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog71');
+                        const openButton = document.querySelector('#dialogopen71');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Leaf Charge</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM7_Leaf_Charge_Deck.jpg"
+                    alt="Leaf Charge box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog72">
+                    Call on the strength and agility of Sceptile! Gather a growing storm of Grass and Lightning power, and then unleash a furious attack. Stay charged up with the Leaf Charge theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen72">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Leaf_Charge_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog72');
+                        const openButton = document.querySelector('#dialogopen72');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Hydro Fury</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM7_Hydro_Fury_Deck.jpg"
+                    alt="Hydro Fury box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog73">
+                    Swampert's Hydro Pump can pack a wallop—just pump up the power and let it rip! Throw everything you've got into the battle with the full rage of the Hydro Fury theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen73">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Hydro_Fury_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog73');
+                        const openButton = document.querySelector('#dialogopen73');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Blazing Volcano</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM8_Blazing_Volcano_Deck.jpg"
+                    alt="Blazing Volcano box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog74">
+                    Release the red-hot power of the Legendary Pokémon Entei! This slow-building deck combines the power of Fire and Grass types to fan a small flame into a raging inferno. Burn your way to victory with the Blazing Volcano theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen74">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Blazing_Volcano_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog74');
+                        const openButton = document.querySelector('#dialogopen74');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Storm Caller</span>
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM8_Storm_Caller_Deck.jpg"
+                    alt="Storm Caller box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog75">
+                    Ride the wind with the surging power of the Legendary Pokémon Raikou! This high-voltage deck has the support to charge up potent hits—and runs some risks for the big Knock Out. Master the lightning with the Storm Caller theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen75">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Storm_Caller_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog75');
+                        const openButton = document.querySelector('#dialogopen75');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Relentless Flame</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM9_Relentless_Flame_Deck.jpg"
+                    alt="Relentless Flame box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog76">
+                    Fire it up with the relentless flames of Charizard! This deck burns super hot, so keep feeding Charizard enough Fire Energy to create an unstoppable Continuous Blaze Ball. Burn bright and burn true with the Relentless Flame theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen76">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Relentless_Flame_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog76');
+                        const openButton = document.querySelector('#dialogopen76');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Torrential Cannon</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM9_Torrential_Cannon_Deck.jpg"
+                    alt="Torrential Cannon box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog77">
+                    Give your opponent a high-pressure soaking with help from Blastoise! Use Golduck's Amnesia to keep the other side off-balance as you power up a devastating Hydro Tackle attack. Wash away the competition with the Torrential Cannon theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen77">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Torrential_Cannon_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog77');
+                        const openButton = document.querySelector('#dialogopen77');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Battle Mind</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM10_Battle_Mind_Deck.jpg"
+                    alt="Battle Mind box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog78">
+                    Combine raw heat and psychic prowess for an attack that's hard to stop! Mewtwo's Mind Report Ability recovers the awesome Welder Supporter card, so you can keep your Fire-type Pokémon totally fired up. Incineroar adds fuel to the fire in the Battle Mind theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen78">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Battle_Mind_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog78');
+                        const openButton = document.querySelector('#dialogopen78');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Lightning Loop</span>
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM10_Lightning_Loop_Deck.jpg"
+                    alt="Lightning Loop box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog79">
+                    The Mythical Pokémon Zeraora leads the charge in this looping electrical wonder! This deck recycles Lightning Energy with Magnezone, so you always have plenty to fuel Zeraora's powerful Discharge attack. Dodrio and Raticate step in as quick attackers in the Lightning Loop theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen79">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Lightning_Loop_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog79');
+                        const openButton = document.querySelector('#dialogopen79');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Laser Focus</span>
+                
+                    <img class="type-icon" src="assets/20px-Psychic-attack.png" alt="Psychic">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM11_Laser_Focus_Deck.jpg"
+                    alt="Laser Focus box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog80">
+                    Help Necrozma get that laser dialed in perfectly! This deck recycles Energy with Malamar's Psychic Recharge—so you always have enough power to push the attack. Audino and Silvally provide support as you zero in on the competition with the Laser Focus theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen80">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Laser_Focus_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog80');
+                        const openButton = document.querySelector('#dialogopen80');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Soaring Storm</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+                    <img class="type-icon" src="assets/20px-Dragon-attack.png" alt="Dragon">
+                
+                    <img class="type-icon" src="assets/20px-Lightning-attack.png" alt="Lightning">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM11_Soaring_Storm_Deck.jpg"
+                    alt="Soaring Storm box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog81">
+                    Pull lightning and torrential rain out of the air for Dragon Impact, and rebuild your power with Dragonite's Hurricane Charge Ability! Thundurus and Tornadus join the fray to keep foes reeling as you hold the high ground with the Soaring Storm theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen81">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Soaring_Storm_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog81');
+                        const openButton = document.querySelector('#dialogopen81');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Unseen Depths</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM12_Unseen_Depths_Deck.jpg"
+                    alt="Unseen Depths box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog82">
+                    Call the swirling waves with Kyogre, a Legendary Pokémon of the ocean. Use Empoleon's powerful Recall to strike from the sea, and spin opponents around with Phione's Whirlpool Suction. Command the surf and roll on to victory with the Unseen Depths theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen82">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Unseen_Depths_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog82');
+                        const openButton = document.querySelector('#dialogopen82');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Towering Heights</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SM12_Towering_Heights_Deck.jpg"
+                    alt="Towering Heights box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog83">
+                    The Legendary Groudon is ready to smash foes, with Garchomp at its side! Use Seismitoad's Bulldoze Ability for power searches, and call on Lady for extra Energy and Throh for big attacks. Strike from above with the Towering Heights theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen83">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Towering_Heights_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog83');
+                        const openButton = document.querySelector('#dialogopen83');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Rillaboom Theme Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Grass-attack.png" alt="Grass">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SWSH1_Rillaboom_Deck.jpg"
+                    alt="Rillaboom Theme Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog84">
+                    Leaping into battle, Rillaboom gets charged up with the fast-growing power of Grass types! Pound down the opposition with its Drum Roll attack, review your Professor's Research to find new cards, and call on Eldegoss's Blessing of Fluff for more Energy in the Rillaboom theme deck!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen84">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Rillaboom_Theme_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog84');
+                        const openButton = document.querySelector('#dialogopen84');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Cinderace Theme Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SWSH1_Cinderace_Deck.jpg"
+                    alt="Cinderace Theme Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog85">
+                    Eager for victory, Cinderace rallies the quick-burning power of Fire types! Its Flame Cloak attack brings Energy back into the game, Supporter Hop can score extra cards, and Dubwool's Double-Edge delivers big whomping damage to keep the Cinderace theme deck burning hot!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen85">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Cinderace_Theme_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog85');
+                        const openButton = document.querySelector('#dialogopen85');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Inteleon Theme Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SWSH1_Inteleon_Deck.jpg"
+                    alt="Inteleon Theme Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog86">
+                    Sneaky Inteleon has a bag of tricks to trip up opponents! Use its Hydro Snipe attack to remove Energy from opposing Pokémon, and keep the foe from retreating with Drednaw's Jaw Lock. Dodge madly and roll smoothly to victory with the Inteleon theme deck
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen86">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Inteleon_Theme_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog86');
+                        const openButton = document.querySelector('#dialogopen86');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Zacian Theme Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Metal-attack.png" alt="Metal">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SWSH2_Zacian_Deck.jpg"
+                    alt="Zacian Theme Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog87">
+                    Sharp and quick, the Legendary Pokémon Zacian leads its mighty companions to victory! With Unfezant holding the skies and Professor's Research keeping your options open, you have a full range of paths to reach the top. Galarian Perrserker and Hawlucha lend their courage as you wield the Zacian theme deck with valor!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen87">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Zacian_Theme_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog87');
+                        const openButton = document.querySelector('#dialogopen87');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Zamazenta Theme Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Metal-attack.png" alt="Metal">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SWSH2_Zamazenta_Deck.jpg"
+                    alt="Zamazenta Theme Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog88">
+                    Strong as any shield, the Legendary Pokémon Zamazenta and a group of Pokémon warriors are ready to battle! Duraludon gets you powered up quickly, and Professor's Research ensures your hand stays full of options. Corviknight and Ferrothorn add steely determination as you keep the Zamazenta theme deck focused and on target!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen88">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Zamazenta_Theme_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog88');
+                        const openButton = document.querySelector('#dialogopen88');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Galarian Darmanitan Theme Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SWSH3_Galarian_Darmanitan_Deck.jpg"
+                    alt="Galarian Darmanitan Theme Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog89">
+                    Cold as the north wind—or blazing with fiery determination—Galarian Darmanitan shows off deep composure and immense strength in battle! Professor's Research keeps your hand full of options, and Pelipper keeps an eye out from the sky. Suicune, Kangaskhan, and Beartic add strong offense to keep the Galarian Darmanitan theme deck extra frosty!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen89">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Galarian_Darmanitan_Theme_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog89');
+                        const openButton = document.querySelector('#dialogopen89');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Galarian Sirfetch'd Theme Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Fighting-attack.png" alt="Fighting">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SWSH3_Galarian_Sirfetch%27d_Deck.jpg"
+                    alt="Galarian Sirfetch'd Theme Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog90">
+                    Brave and strong, the chivalrous Galarian Sirfetch'd fights fair and fights hard! With Stonjourner throwing rocky kicks and Professor's Research keeping your options open, you can follow the knight's path to an honorable victory. Hippowdon and Passimian add extra muscle to keep the Galarian Sirfetch'd theme deck steadfast and ready to strike!
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen90">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Galarian_Sirfetch%27d_Theme_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog90');
+                        const openButton = document.querySelector('#dialogopen90');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Charizard Theme Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Fire-attack.png" alt="Fire">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SWSH4_Charizard_Deck.jpg"
+                    alt="Charizard Theme Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog91">
+                    None
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen91">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Charizard_Theme_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog91');
+                        const openButton = document.querySelector('#dialogopen91');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+        <sl-card class="deck-card">
+            <div slot="header">
+                <span class="deck-name">Drednaw Theme Deck</span>
+                
+                    <img class="type-icon" src="assets/20px-Water-attack.png" alt="Water">
+                
+            </div>
+            <img
+                    slot="image"
+                    class="deck-image"
+                    src="assets/180px-SWSH4_Drednaw_Deck.jpg"
+                    alt="Drednaw Theme Deck box image"
+            />
+            <div slot="footer">
+                <sl-dialog id="dialog92">
+                    None
+                    <sl-button slot="footer" variant="primary">Close</sl-button>
+                </sl-dialog>
+                <div class="footer-flex">
+                    <sl-button variant="primary" id="dialogopen92">More Info</sl-button>
+                    <sl-button href="https://bulbapedia.bulbagarden.net/wiki/Drednaw_Theme_Deck_(TCG)" target="_blank">Deck List</sl-button>
+                </div>
+
+                <script>
+                    {
+                        const dialog = document.querySelector('#dialog92');
+                        const openButton = document.querySelector('#dialogopen92');
+                        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+                        openButton.addEventListener('click', () => dialog.show());
+                        closeButton.addEventListener('click', () => dialog.hide());
+                    }
+                </script>
+            </div>
+        </sl-card>
+    
+</div>
+
+
+</body>
+</html>

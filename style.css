@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #4B79A1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #283E51, #0A2342); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #283E51, #0A2342); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -olinear-gradient(to top, #283E51, #0A2342);
+}
+
+#page-title {
+    text-align: center;
+    font-family: "Mountains of Christmas", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: white;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.deck-card {
+    width: 250px;
+    margin-bottom: 20px;
+    --border-color: lightgray;
+}
+
+.deck-card::part(body) {
+    padding: 0;
+}
+
+.deck-card::part(footer) {
+    background-color: lightgray;
+}
+
+.deck-name {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.type-icon {
+    float: right;
+    margin-left: 4px;
+}
+
+.deck-image {
+    margin: 5px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    #page-title {
+        font-size: 40px;
+    }
+
+    /*.deck-card {*/
+    /*    flex-grow: 1;*/
+    /*}*/
+}
+
+
+.snow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+    pointer-events: none;
+}
+
+.snowflake {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+@keyframes fall {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+        transform: translateY(100vh);
+    }
+}
+
+@keyframes diagonal-fall {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.25;
+        transform: translate(10vw, 100vh);
+    }
+}
